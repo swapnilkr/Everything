@@ -1,3 +1,6 @@
+/* https://www.facebook.com/permalink.php?story_fbid=151732496593519&id=100052703091127
+Subscribed by Joy Roy */
+
 #include <stdio.h>
 #include <string.h>
 #include <math.h>
