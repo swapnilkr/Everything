@@ -1,0 +1,13 @@
+
+qua .asm file 
+section .data 
+ a dq 1.0 
+ b dq -6.0 
+ c dq 9.0 
+ integer4 dw 4 
+ infmt db 10,"a = %f",10,"b = %f",10,"c = %f",10,0 
+ outfmt db 10,"Root 1 = %f",10,10,"Root 2 = %f",10,0 
+section .bss 
+ sqrtdelta resq 1 
+ negb resq 1 
+ root1 resq 1
