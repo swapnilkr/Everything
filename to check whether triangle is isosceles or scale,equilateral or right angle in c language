@@ -1,0 +1,24 @@
+#include <stdio.h>
+void main()
+{
+int a,b,c;
+printf("enter the values of a,b,c");
+scanf("%d",&a);
+scanf("%d",&b);
+scanf("%d",&c);
+if (a==b && c==b)
+{
+printf("triangle is equilateral");
+}
+if (a==b // b==c // a==c)
+{
+printf("triangle is isoscales");
+}
+else;
+{
+printf("triangle is scale");
+}
+if (a*a==b*b+c*c // b*b==a*a+c*c) // c*c==b*b+a*a)
+{
+printf("triangle is right angle");
+}}
