@@ -1,0 +1,111 @@
+#https://m.facebook.com/story.php?story_fbid=2734956710125224&id=100008327644126
+#Subscribed by heena rana
+
+
+  #include<iostream>
+  using namespace std;
+
+//  int main(){
+//             int a=2,b=4;
+
+//      cout<<"arithmatic operators";
+//          //c++ standard library headers
+//      cout<<a+b<<endl;
+//      cout<<a-b<<endl;
+//      cout<<a/b<<endl;
+//      cout<<a%b<<endl;
+//      cout<<a*b<<endl;
+//      cout<<a++<<endl;
+//      cout<<a--<<endl;
+     
+
+//    //assiggnment operators --> used to assign values to variable 
+//    //int a=3,b=9;
+
+//    //comparaison operators
+//    cout<<"the value of a== "<<(a==b)<<endl;
+//    cout<<"the value of a>"<<a==b<<endl;
+//    cout<<"the value of a< "<<a==b<<endl;
+//    cout<<"the value of a<=="<<a==b<<endl;
+//    cout<<"the value of a>== "<<a==b<<endl;
+   
+     
+    
+
+
+#include<iostream>
+using namespace std;
+
+
+int c =45;
+
+               int main(){
+
+     int a,b,c;
+   
+               cout<<"enter the value of a:"<<endl;
+              cin>>a;
+               cout <<"enter the value of b:"<<endl;
+                cin>>b;
+                c=a+b;
+                     cout<<"the sum is "<<c<<endl;
+                 cout<<"the global c is"<<::c;
+                   return 0;
+         }
+               
+   //*********************************float , double ,long literal data types *********************************
+//    float d=34.5f;
+//    long double e=67.8l;
+//    cout<<"the size  of"<<sizeof(34.4)<<endl;
+//    cout<<"the size  of"<<sizeof(34.4F)<<endl;
+//    cout<<"the size  of"<<sizeof(34.4f)<<endl;
+//    cout<<"the size  of"<<sizeof(34.4l)<<endl;
+//    cout<<"the size  of"<<sizeof(34.4L)<<endl;
+  
+  // cout<<"the value od d "<<d<<endl<<"the value of e"<<  
+  //******************************************************reference variable **************************8
+
+    // float x=5;
+    
+    // float & y=x;
+    // cout<<"print" <<x<<endl;
+    // cout<<"print" <<y<<endl;
+
+
+// **********************************tycasting**************************
+
+// int a=45;
+// float b=56.7;
+// cout<<(float)a;
+// cout<<(int)b;
+
+//  return 0;
+
+// #include<iostream>
+
+
+// using namespace std;
+
+
+// int main() {
+
+//           int a=34;
+//           cout<<"the vaue  was  of a :"<<a;   
+//           a=45;
+//           cout<<"the vaue a: "<<a;
+//           return 0;
+
+// }
+
+
+
+
+
+
+
+
+
+
+
+
+
