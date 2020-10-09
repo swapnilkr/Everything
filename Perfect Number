@@ -37,8 +37,8 @@ bool isPerfect(long long int n)
 // Driver program 
 int main() 
 { 
-    cout << "Below are all perfect numbers till 10000\n"; 
-    for (int n =2; n<10000; n++) 
+    cout << "Below are all perfect numbers till 1000\n"; 
+    for (int n =2; n<1000; n++) 
         if (isPerfect(n)) 
             cout << n << " is a perfect number\n"; 
    
