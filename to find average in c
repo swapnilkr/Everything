@@ -1,0 +1,12 @@
+#include <stdio.h>
+void main()
+{
+int a,b,c,average;
+printf("enter the velue of a,b,c");
+scanf("%d",&a);
+scanf("%d",&b);
+scanf("%d",&c);
+average= (a+b+c)%3;
+printf("%d\n",average);
+}}
+
