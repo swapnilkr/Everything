@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>registration</title>
+<style>
+.frm{
+    background-color:bisque;
+    margin:auto;
+    width: 60%;
+    padding-left: 50px;
+    padding-top: 10px;
+}
+label{
+    display: inline-block;
+    width: 250px;
+    color: crimson;
+}
+</style>
+</head>
+<body>
+<div class="frm" style="border: 5px solid black">
+<form method="post" action="welcome.php">
+<h1>REGISTRATION FORM</h1>
+please fill the form below<br><br>
+<label for="roll no"><b>Roll no. *</b></label>
+<input type="text" name="roll no" id="roll no" required><br><br>
+<label for="class"><b>Class *</b></label>
+<select id="class" name="class" style="width: 165px;" required>
+<option selected disabled hidden style='display: none' value=''></option>
+<option value="9">9th</option>
+<option value="10">10th</option>
+<option value="11">11th</option>
+<option value="12">12th</option>
+</select><br><br>
+<label for="admitted"><b>Admitted to *</b></label>
+<select id="admitted" name="admitted" style="width: 165px;" required>
+<option selected disabled hidden style='display: none' value=''></option>
+<option value="">9th</option>
+<option value="10">10th</option>
+<option value="11">11th</option>
+<option value="12">12th</option>
+</select><br><br>
+<label for="base"><b>Admission base *</b></label>
+<select id="base" name="base" style="width: 165px;" required>
+<option selected disabled hidden style='display: none' value=''></option>
+<option value="9">9th</option>
+<option value="10">10th</option>
+</select><br><br>
+<label for="fullname"><b>Full name *</b></label>
+<input type="text" name="fullname" id="fullname" required><br><br>
+<label for="mothername"><b>Mother name *</b></label>
+<input type="text" name="mothername" id="mothername" required><br><br>
+<label for="Birth date"><b>Birth date *</b></label>
+<select id="month" name="month" required>
+<option selected disabled hidden style='display: none' value=''></option>
+<option value="jan">jan</option>
+<option value="feb">feb</option>
+<option value="march">march</option>
+<option value="april">april</option>
+<option value="may">may</option>
+<option value="june">june</option>
+<option value="july">july</option>
+<option value="aug">aug</option>
+<option value="sept">sept</option>
+<option value="oct">oct</option>
+<option value="nov">nov</option>
+<option value="dec">dec</option>
+</select>
+<select id="day" name="day" required>
+<option selected disabled hidden style='display: none' value=''></option>
+<option value="1">1</option>
+<option value="2">2</option>
+<option value="3">3</option>
+<option value="4">4</option>
+<option value="5">5</option>
+<option value="6">6</option>
+<option value="7">7</option>
+<option value="8">8</option>
+<option value="9">9</option>
+<option value="10">10</option>
+<option value="11">11</option>
+<option value="12">12</option>
+<option value="13">13</option>
+<option value="14">14</option>
+<option value="15">15</option>
+<option value="16">16</option>
+<option value="17">17</option>
+<option value="18">18</option>
+<option value="19">19</option>
+<option value="20">20</option>
+<option value="21">21</option>
+<option value="22">22</option>
+<option value="23">23</option>
+<option value="24">24</option>
+<option value="25">25</option>
+<option value="26">26</option>
+<option value="27">27</option>
+<option value="28">28</option>
+<option value="29">29</option>
+<option value="30">30</option>
+<option value="31">31</option>
+</select>
+<select id="year" name="year" style="width: 80px;" required>
+<option selected disabled hidden style='display: none;' value=''></option>
+<option value="2020">2020</option>
+<option value="2019">2019</option>
+<option value="2018">2018</option>
+<option value="2017">2017</option>
+<option value="2016">2016</option>
+<option value="2015">2015</option>
+<option value="2014">2014</option>
+<option value="2013">2013</option>
+<option value="2012">2012</option>
+<option value="2011">2011</option>
+<option value="2010">2010</option>
+<option value="2009">2009</option>
+<option value="2008">2008</option>
+<option value="2007">2007</option>
+<option value="2006">2006</option>
+<option value="2005">2005</option>
+<option value="2004">2004</option>
+<option value="2003">2003</option>
+<option value="2002">2002</option>
+<option value="2001">2001</option>
+<option value="2000">2000</option>
+</select>
+<br><br>
+<label for="gender"><b>Gender *</b></label>
+<select id="gender" name="gender" style="width: 165px;" required>
+<option selected disabled hidden style='display: none' value=''></option>
+<option value="male">male</option>
+<option value="female">female</option>
+</select><br><br>
+<label for="Contact no."><b>Contact no. *</b></label>
+<input type="number" name="number" id="number" required><br><br>
+<label for="phone"><b>Phone number</b></label>
+<input type="number" name="code" id="code" style="width: 50px;">
+<input type="number" name="phone" id="phone"><br><br>
+<label for="email"><b>Email *</b></label>
+<input type="email" placeholder="ex:myname@example.com" style="width: 200px;" name="email" id="email" required><br><br>
+<label for="address"><b>Address *</b></label><br>
+<textarea name="address" style="height:100px; width:500px;" required>
+</textarea><br>
+<input type="Submit" value="Submit" style="width: 100px;padding:5px;background-color: gray;">
+</form>
+</div>
+</body>
+</html>
+
