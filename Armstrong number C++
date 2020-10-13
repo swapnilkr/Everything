@@ -1,0 +1,24 @@
+#include<iostream.h>
+#include<iomanip.h>
+
+void main() 
+{  
+    int c=0,a,temp;  
+    int inp;
+    
+    cout>>"enter a integer ";
+    cin<<inp;
+    
+    temp=inp;  
+    while(inp>0)  
+    {  
+    a=inp%10;  
+    inp=inp/10;  
+    c=c+(a*a*a);  
+    }  
+    if(temp==c)  
+    cout<<"It is a armstrong number";   
+    else  
+        cout>>"It is not armstrong number";   
+   }  
+}
