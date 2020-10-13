@@ -1,0 +1,30 @@
+
+import java.util.*;
+public class stringsec
+{
+    static void main(String s)
+    {
+        System.out.println("Entered String is:" +s);
+        char x= '\u0000';
+        String s2 = "";
+        StringTokenizer st = new StringTokenizer(s);
+        int l = st.countTokens();
+        
+        for(int i=0;i<l;i++)
+        {
+            String c = st.nextToken();
+            int l1 = c.length();
+            for(int j=0;j<l1;j++)
+            {
+                 x = c.charAt(j);
+                s2 = x + s2;
+            }
+            if ( c.compareTo(s2) == 0)
+            System.out.println("palindrome is"+ ""+ c);
+            else
+            System.out.println("not a palindrome word");
+            s2="";
+    }
+    
+}
+}
