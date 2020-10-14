@@ -1,0 +1,16 @@
+#include<iostream>
+void main ()
+{
+    int arr[10], n, i, pro = 1;
+    cout << "Enter the size of the array : ";
+    cin >> n;
+    cout << "\nEnter the elements of the array : ";
+    for (i = 0; i < n; i++)
+    cin >> arr[i];
+    for (i = 0; i < n; i++)
+    {
+        pro *= arr[i];
+    }
+    cout << "\nProduct of array elements : " << pro;
+    
+}
